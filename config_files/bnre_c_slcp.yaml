@@ -1,0 +1,22 @@
+benchmark: slcp
+method: bnre_c
+simulation_budgets: [1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072]
+val_fraction: 0.1
+train_set_size: 131072
+val_set_size: 13110
+test_set_size: 100000
+coverage_set_size: 10000
+block_size: 1000
+seed: 1
+nb_runs: 5
+train_batch_size: 256
+test_batch_size: 256
+epochs: 500
+learning_rate: 1e-3
+min_lr: 1e-5
+experience_dir: "results/bnre_c/slcp"
+diagnostics: ["coverage", "entropy", "normalized_nominal_log_prob", "nominal_log_prob", "balancing_error"]
+num_classes: 5
+gamma: 1
+regularization_strength: 100.
+schedule: True
