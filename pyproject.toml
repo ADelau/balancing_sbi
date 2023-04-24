@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "balancing_sbi"
+version = "0.0.1"
+authors = [
+  { name="Arnaud Delaunoy" },
+  { name="Benjamin Kurt Miller" },
+]
+description = "Enforcing the balance criterion in simulation-based inference."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ADelau/balancing_sbi"
+"arXiv" = "https://arxiv.org/abs/2304.10978"
