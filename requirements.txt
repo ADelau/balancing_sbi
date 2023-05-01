@@ -1,165 +1,142 @@
-anyio==3.5.0
-appdirs==1.4.4
-argon2-cffi==21.3.0
-argon2-cffi-bindings==21.2.0
 astropy==4.3
-asttokens==2.2.1
-attrs==22.1.0
-Babel==2.11.0
-backcall==0.2.0
-beautifulsoup4==4.11.1
-bleach==4.1.0
-boto3==1.26.91
-botocore==1.29.91
-brotlipy==0.7.0
-certifi==2022.12.7
-cffi==1.15.1
-chardet==3.0.4
-charset-normalizer==2.0.4
-click==8.1.3
-cloudpickle==2.2.0
-comm==0.1.2
-contourpy==1.0.6
-cryptography==39.0.1
-cycler==0.11.0
-Cython==0.29.33
 dawgz==0.4.1
-debugpy==1.5.1
-decorator==5.1.1
-defusedxml==0.7.1
-entrypoints==0.4
-executing==1.2.0
-fastjsonschema==2.16.2
-Flask==1.1.2
-Flask-Caching==1.10.1
-flit_core==3.6.0
-fonttools==4.38.0
-future==0.18.3
-gitdb==4.0.10
-GitPython==3.1.31
-globus-sdk==3.17.0
-gwdatafind==1.1.3
+# debugpy==1.5.1
+# decorator==5.1.1
+# defusedxml==0.7.1
+# entrypoints==0.4
+# executing==1.2.0
+# fastjsonschema==2.16.2
+# Flask==1.1.2
+# Flask-Caching==1.10.1
+# flit_core==3.6.0
+# fonttools==4.38.0
+# future==0.18.3
+# gitdb==4.0.10
+# GitPython==3.1.31
+# globus-sdk==3.17.0
+# gwdatafind==1.1.3
 h5py==3.8.0
-idna==2.10
-igwn-auth-utils==0.4.0
-importlib-metadata==4.11.3
-importlib-resources==5.12.0
-ipykernel==6.19.2
-ipython==8.10.0
-ipython-genutils==0.2.0
-ipywidgets==7.6.5
-itsdangerous==2.1.2
-jedi==0.18.2
-Jinja2==3.1.2
-jmespath==1.0.1
-json5==0.9.6
-jsonschema==4.17.3
+# idna==2.10
+# igwn-auth-utils==0.4.0
+# importlib-metadata==4.11.3
+# importlib-resources==5.12.0
+# ipykernel==6.19.2
+# ipython==8.10.0
+# ipython-genutils==0.2.0
+# ipywidgets==7.6.5
+# itsdangerous==2.1.2
+# jedi==0.18.2
+# Jinja2==3.1.2
+# jmespath==1.0.1
+# json5==0.9.6
+# jsonschema==4.17.3
 jupyter==1.0.0
-jupyter_client==7.4.9
-jupyter-console==6.6.2
-jupyter_core==5.2.0
-jupyter-server==1.23.4
-jupyterlab==3.5.3
-jupyterlab-pygments==0.1.2
-jupyterlab-server==2.10.3
-jupyterlab-widgets==1.0.0
-kiwisolver==1.4.4
-lampe==0.7.0
-ligo-segments==1.4.0
-ligotimegps==2.0.1
-lscsoft-glue==3.0.1
-lxml==4.9.1
-Mako==1.2.4
-MarkupSafe==2.1.1
+# jupyter_client==7.4.9
+# jupyter-console==6.6.2
+# jupyter_core==5.2.0
+# jupyter-server==1.23.4
+# jupyterlab==3.5.3
+# jupyterlab-pygments==0.1.2
+# jupyterlab-server==2.10.3
+# jupyterlab-widgets==1.0.0
+# kiwisolver==1.4.4
+# lampe==0.7.3
+lampe @ git+https://github.com/bkmi/lampe@1f54fcf
+# ligo-segments==1.4.0
+# ligotimegps==2.0.1
+# lscsoft-glue==3.0.1
+# lxml==4.9.1
+# Mako==1.2.4
+# MarkupSafe==2.1.1
 matplotlib==3.7.1
-matplotlib-inline==0.1.6
-mistune==0.8.4
-mpld3==0.5.9
-mpmath==1.3.0
-nbclassic==0.5.2
-nbclient==0.5.13
-nbconvert==6.5.4
-nbformat==5.7.0
-nest-asyncio==1.5.6
-notebook==6.5.2
-notebook_shim==0.2.2
+# matplotlib-inline==0.1.6
+# mistune==0.8.4
+# mpld3==0.5.9
+# mpmath==1.3.0
+# nbclassic==0.5.2
+# nbclient==0.5.13
+# nbconvert==6.5.4
+# nbformat==5.7.0
+# nest-asyncio==1.5.6
+# notebook==6.5.2
+# notebook_shim==0.2.2
 numpy==1.22.0
-nvidia-cublas-cu11==11.10.3.66
-nvidia-cuda-nvrtc-cu11==11.7.99
-nvidia-cuda-runtime-cu11==11.7.99
-nvidia-cudnn-cu11==8.5.0.96
-packaging==22.0
-pamela==1.0.0
-pandocfilters==1.5.0
-parso==0.8.3
-pegasus-wms==5.0.1
-pegasus-wms.api==5.0.5
-pegasus-wms.common==5.0.5
-pegasus-wms.dax==5.0.4
-pegasus-wms.worker==5.0.4
-pexpect==4.8.0
-pickleshare==0.7.5
-pika==1.1.0
-Pillow==9.3.0
-pip==23.0.1
-platformdirs==2.5.2
-ply==3.11
-pooch==1.4.0
-prometheus-client==0.14.1
-prompt-toolkit==3.0.36
-psutil==5.9.0
-ptyprocess==0.7.0
-pure-eval==0.2.2
+# nvidia-cublas-cu11==11.10.3.66
+# nvidia-cuda-nvrtc-cu11==11.7.99
+# nvidia-cuda-runtime-cu11==11.7.99
+# nvidia-cudnn-cu11==8.5.0.96
+# packaging==22.0
+# pamela==1.0.0
+# pandocfilters==1.5.0
+# parso==0.8.3
+# pegasus-wms==5.0.1
+# pegasus-wms.api==5.0.5
+# pegasus-wms.common==5.0.5
+# pegasus-wms.dax==5.0.4
+# pegasus-wms.worker==5.0.4
+# pexpect==4.8.0
+# pickleshare==0.7.5
+# pika==1.1.0
+# Pillow==9.3.0
+# pip==23.0.1
+# platformdirs==2.5.2
+# ply==3.11
+# pooch==1.4.0
+# prometheus-client==0.14.1
+# prompt-toolkit==3.0.36
+# psutil==5.9.0
+# ptyprocess==0.7.0
+# pure-eval==0.2.2
 PyCBC==2.2.0
-pycparser==2.21
-pyerfa==2.0.0
-Pygments==2.13.0
-PyJWT==2.6.0
-pyOpenSSL==23.0.0
-pyparsing==3.0.9
-PyQt5-sip==12.11.0
-pyrsistent==0.18.0
-pyRXP==3.0.1
-PySocks==1.7.1
-python-dateutil==2.8.2
+# pycparser==2.21
+# pyerfa==2.0.0
+# Pygments==2.13.0
+# PyJWT==2.6.0
+# pyOpenSSL==23.0.0
+# pyparsing==3.0.9
+# PyQt5-sip==12.11.0
+# pyrsistent==0.18.0
+# pyRXP==3.0.1
+# PySocks==1.7.1
+# python-dateutil==2.8.2
 python-ligo-lw==1.8.3
-pytz==2022.7
+# pytz==2022.7
 PyYAML==5.4.1
-pyzmq==23.2.0
-qtconsole==5.4.0
-QtPy==2.2.0
-requests==2.25.1
-s3transfer==0.6.0
-safe-netrc==1.0.1
+# pyzmq==23.2.0
+# qtconsole==5.4.0
+# QtPy==2.2.0
+# requests==2.25.1
+# s3transfer==0.6.0
+# safe-netrc==1.0.1
 scipy==1.10.1
-scitokens==1.7.4
-Send2Trash==1.8.0
-setuptools==65.6.3
-sip==6.6.2
-six==1.16.0
-smmap==3.0.5
-sniffio==1.2.0
-soupsieve==2.3.2.post1
-SQLAlchemy==1.3.24
-stack-data==0.6.2
-tabulate==0.9.0
-terminado==0.17.1
-tinycss2==1.2.1
-toml==0.10.2
-tomli==2.0.1
+# scitokens==1.7.4
+# Send2Trash==1.8.0
+# setuptools==65.6.3
+# sip==6.6.2
+# six==1.16.0
+# smmap==3.0.5
+# sniffio==1.2.0
+# soupsieve==2.3.2.post1
+# SQLAlchemy==1.3.24
+# stack-data==0.6.2
+# tabulate==0.9.0
+# terminado==0.17.1
+# tinycss2==1.2.1
+# toml==0.10.2
+# tomli==2.0.1
 torch==1.13.0
-tornado==6.2
+# tornado==6.2
 tqdm==4.64.1
-traitlets==5.7.1
-trash-cli==0.23.2.13.2
-typing==3.7.4.3
-typing_extensions==4.4.0
-urllib3==1.26.14
-wcwidth==0.2.5
-webencodings==0.5.1
-websocket-client==0.58.0
-Werkzeug==2.2.3
-wheel==0.38.4
-widgetsnbextension==3.5.2
-zipp==3.11.0
+# traitlets==5.7.1
+# trash-cli==0.23.2.13.2
+# typing==3.7.4.3
+# typing_extensions==4.4.0
+# urllib3==1.26.14
+# wcwidth==0.2.5
+# webencodings==0.5.1
+# websocket-client==0.58.0
+# Werkzeug==2.2.3
+# wheel==0.38.4
+# widgetsnbextension==3.5.2
+# zipp==3.11.0
 zuko==0.0.8

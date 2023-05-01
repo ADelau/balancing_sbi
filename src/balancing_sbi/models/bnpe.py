@@ -1,9 +1,8 @@
-import os
 import torch
 import torch.nn as nn
 
 from .base import ModelFactory
-from.npe import NPEModel
+from .npe import NPEModel
 
 class BNPELoss(nn.Module):
     def __init__(self, estimator, prior, lmbda=100.0):

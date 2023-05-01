@@ -20,3 +20,8 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/ADelau/balancing_sbi"
 "arXiv" = "https://arxiv.org/abs/2304.10978"
+
+[project]
+dynamic = ["dependencies"]
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
