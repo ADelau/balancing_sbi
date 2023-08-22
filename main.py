@@ -11,9 +11,9 @@ from tqdm import tqdm
 from matplotlib import pyplot as plt
 
 from dawgz import job, after, waitfor, ensure, schedule, context
-from config_files import read_config
-from benchmarks import load_benchmark, Datasets
-from models import load_model_factory
+from balancing_sbi.config import read_config
+from balancing_sbi.benchmarks import load_benchmark, Datasets
+from balancing_sbi.models import load_model_factory
 from diagnostics import compute_coverage, compute_normalized_entropy_log_posterior, compute_log_posterior, compute_balancing_error, compute_prior_mixture_coef, plot_1d_posterior, plot_2d_posterior, plot_nd_posterior
 
 def set_seed(seed):
